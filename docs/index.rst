@@ -1,6 +1,9 @@
 Contribution guide
 ------------------
 
+This is a collection of styles, best practices and contribution manuals I'm
+using in a various projects.
+
 .. toctree::
    :maxdepth: 2
 
