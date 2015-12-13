@@ -5,14 +5,16 @@ This is a collection of styles, best practices and contribution manuals I'm
 using in a various projects.
 
 .. toctree::
-   :maxdepth: 2
+   :caption: VCS
+   :maxdepth: 1
+   :numbered:
 
    /git
 
-Style guides:
-
 .. toctree::
-   :maxdepth: 2
+   :caption: Languages
+   :maxdepth: 1
+   :numbered:
 
    /cpp
    /cmake
