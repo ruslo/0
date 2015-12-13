@@ -260,7 +260,7 @@ STREQUAL
 
 Usage of ``if(${A} STREQUAL ${B})`` is **not** recommended, see
 `this SO question <http://stackoverflow.com/questions/19982340/cmake-compare-to-empty-string-with-strequal-failed>`_.
-Preferable function is `string <http://www.cmake.org/cmake/help/v2.8.12/cmake.html#command%3astring>`_:
+Preferable function is `string <https://cmake.org/cmake/help/v3.3/command/string.html>`_:
 
 .. code-block:: cmake
 
