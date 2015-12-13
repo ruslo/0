@@ -12,7 +12,7 @@ File extensions
 * ``.cpp`` - **C** **P**\ lus **P**\ lus source file
 * ``.tpp`` - **T**\ emplate instantiation C **P**\ lus **P**\ lus
 
-.. note:: Example of `vimrc <https://github.com/ruslo/configs/blob/f83fa5c4205bb9ac5e79db91d6512a8a23beffff/vim/vimrc#L121>`_
+.. note:: Example of `vimrc <https://github.com/ruslo/configs/blob/562f0d054063382c28afaf86ed0a05465e4201e4/vim/vimrc#L121>`_
 
 Compilers limitations
 =====================
