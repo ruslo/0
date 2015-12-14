@@ -108,18 +108,18 @@ For example:
 
 * Do not mix renaming of variable with changes in logic - make two commits:
 
- * rename variable
- * apply other changes
+ 1. rename variable
+ 2. apply other changes
 
 * Do not rename file and do change of it's internals - make two commits:
 
- * rename file
- * change internals
+ 1. rename file
+ 2. change internals
 
 * Quite the same with big blocks of code. If block moves with a small change make two commits:
 
- * move big block only
- * change code in block
+ 1. move big block only
+ 2. change code in block
 
 In short keep in mind that cosmetic/trivial changes is quite easy to review (unlike logic) but they can add additional mess.
 
