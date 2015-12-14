@@ -107,12 +107,17 @@ Keep your commits as trivial as possible, do not mix nonrelated changes in one c
 For example:
 
 * Do not mix renaming of variable with changes in logic - make two commits:
+
  * rename variable
  * apply other changes
+
 * Do not rename file and do change of it's internals - make two commits:
+
  * rename file
  * change internals
+
 * Quite the same with big blocks of code. If block moves with a small change make two commits:
+
  * move big block only
  * change code in block
 
