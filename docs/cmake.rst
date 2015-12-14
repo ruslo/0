@@ -66,6 +66,7 @@ Fix:
 
     # script.cmake.in
     file(WRITE "${filename}" "${content}")
+
 or
 
 .. code-block:: cmake
@@ -283,8 +284,10 @@ Library of CMake extra modules
 
 * All defined functions/macroses start with ``<libname>_`` (`example <https://github.com/ruslo/sugar/tree/master/cmake/utility>`_)
 * no ``message`` command inside, only `wrappers <https://github.com/ruslo/sugar/tree/master/cmake/print>`_
+
  * ``<libname>_STATUS_PRINT`` option control ``message`` output (default value is ``ON``)
  * ``<libname>_STATUS_DEBUG`` option used for more verbose output and additional debug checks (default value is ``OFF``)
+
 * one function/macro - one file
 * ``<include-name>`` equal ``<function-name>``
 
