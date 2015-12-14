@@ -62,6 +62,7 @@ Check there is a new line at end of file
 You can see this warning while creating github pull request:
 
 .. image:: /images/github-diff-no-newline-warning.png
+  :align: center
 
 Set your copyrights
 ~~~~~~~~~~~~~~~~~~~
@@ -75,6 +76,7 @@ Keep git commit's summary short
 Long summary makes output of ``git branch -vv`` looks bad:
 
 .. image:: /images/git-branch-verbose-output-of-long-summary.png
+  :align: center
 
 Same with the ``git log --pretty=oneline`` output.
 
@@ -82,6 +84,7 @@ On github summary can be used as a topic of the pull request. So it will looks
 ugly too:
 
 .. image:: /images/github-pull-request-long-summary.png
+  :align: center
 
 .. seealso:: `Linux recommendation <http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches?id=HEAD#n655>`_
 
@@ -132,6 +135,7 @@ If there if ``CONTRIBUTING`` file in repository you will see
 ``guidelines for contributing`` link. Please read it before submit :)
 
 .. image:: images/github-guidelines-for-contributing.png
+  :align: center
 
 Updating pull request
 =====================
