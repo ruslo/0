@@ -17,11 +17,13 @@ Inserting spaces on pressing TAB
 * In ``Visual Studio`` use `Insert spaces`_
 * Use `expandtab`_ in `gVim`_ (see `vimrc example`__)
 * In ``Xcode`` set `Prefer indent using`_ to ``Spaces``
+* Set ``indent-tabs-mode`` to ``nil`` in your `.emacs file`_
 
 .. _Insert spaces: https://blogs.msdn.microsoft.com/zainnab/2010/09/08/insert-spaces-vs-keep-tabs
 .. _expandtab: http://vim.wikia.com/wiki/Converting_tabs_to_spaces
 .. __: https://github.com/ruslo/configs/blob/42d6d3d2b2aabf0e8ff0c0cbcd073667ce6a8605/vim/vimrc#L24
 .. _Prefer indent using: https://developer.apple.com/library/ios/recipes/xcode_help-source_editor_preferences/articles/setting_source_editing_and_indenting_options.html
+.. _.emacs file: http://www.emacswiki.org/emacs/NoTabs
 
 Highlight tabs in text editor
 +++++++++++++++++++++++++++++
