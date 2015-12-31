@@ -53,10 +53,15 @@ to user but add additional mess with the diffs.
 
 * Use ``sed`` (``gsed`` on OSX) to `remove trailing whitespaces`_
 * In `gVim`_ you can execute ``:%s, \+$,  ,g`` command
+* In ``Xcode`` you need to activate `"Automatically trim trailing whitespaces" with "Including whitespace-only lines"`_
+
+.. note::
+  In ``Xcode`` trailing whitespace will not be trimmed on file save if it's `in the same line with the cursor <http://stackoverflow.com/a/12787957/2288008>`_.
 
 .. seealso:: `Google style guide - Horizontal Whitespace <https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace>`_
 
 .. _remove trailing whitespaces: http://stackoverflow.com/a/4438318/2288008
+.. _"Automatically trim trailing whitespaces" with "Including whitespace-only lines": http://stackoverflow.com/a/11830067/2288008
 
 Check there is a new line at end of file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
