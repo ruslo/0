@@ -130,6 +130,10 @@ For example:
 
 In short keep in mind that cosmetic/trivial changes is quite easy to review (unlike logic) but they can add additional mess.
 
+.. note::
+
+  `Qt Wiki (make atomic commits...) <http://wiki.qt.io/Commit_Policy>`_
+
 Submitting pull request
 =======================
 
