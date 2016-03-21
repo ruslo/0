@@ -153,6 +153,10 @@ If there if ``CONTRIBUTING`` file in repository you will see
 .. image:: images/github-guidelines-for-contributing.png
   :align: center
 
+.. seealso::
+
+ * `GitHub: Setting guidelines for repository contributors <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>`_
+
 Updating pull request
 =====================
 
