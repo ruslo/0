@@ -77,6 +77,27 @@ Set your copyrights
 Usually there is a copyright note at the top of the source file.
 Please add your name there. Update year if necessary.
 
+For C++ code:
+
+.. code-block:: cpp
+
+  // Copyright (c) 2015-2016, Ruslan Baratov
+  // All rights reserved.
+
+For CMake code:
+
+.. code-block:: cmake
+
+  # Copyright (c) 2015-2016, Ruslan Baratov
+  # All rights reserved.
+
+For RST documentation:
+
+.. code-block:: rest
+
+  .. Copyright (c) 2015-2016, Ruslan Baratov
+  .. All rights reserved.
+
 Keep git commit's summary short
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
