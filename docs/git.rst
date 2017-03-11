@@ -75,6 +75,8 @@ You can see this warning while creating GitHub pull request:
 .. image:: /images/github-diff-no-newline-warning.png
   :align: center
 
+Please fix this warning by adding new line at end of file.
+
 Set your copyrights
 ~~~~~~~~~~~~~~~~~~~
 
