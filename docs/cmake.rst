@@ -170,7 +170,7 @@ Upper case for command specifiers:
 
   list(APPEND list_var append_var)
 
-Lower case for local variables (temps, params, ...):
+Lower case for local variables (temps, parameters, ...):
 
 .. code-block:: cmake
 
@@ -282,7 +282,7 @@ export(PACKAGE ...)
 Library of CMake extra modules
 ==============================
 
-* All defined functions/macroses start with ``<libname>_`` (`example <https://github.com/ruslo/sugar/tree/master/cmake/utility>`_)
+* All defined functions/macros start with ``<libname>_`` (`example <https://github.com/ruslo/sugar/tree/master/cmake/utility>`_)
 * no ``message`` command inside, only `wrappers <https://github.com/ruslo/sugar/tree/master/cmake/print>`_
 
  * ``<libname>_STATUS_PRINT`` option control ``message`` output (default value is ``ON``)

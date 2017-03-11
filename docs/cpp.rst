@@ -1,3 +1,11 @@
+.. spelling::
+
+  eader
+  emplate
+  lus
+  mplementation
+  orward
+
 C++
 ---
 
@@ -28,4 +36,4 @@ Other
 ~~~~~
 
 * Prefer ``#if defined(SOMETHING)``, but not ``#ifdef (SOMETHING)``
-* Explicitly deleting move ctor/operator= at least redundant: http://stackoverflow.com/a/23771245/2288008
+* Explicitly deleting move constructor/operator= at least redundant: http://stackoverflow.com/a/23771245/2288008

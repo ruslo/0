@@ -1,3 +1,7 @@
+.. spelling::
+
+  diffs
+
 Git
 ---
 
@@ -66,7 +70,7 @@ to user but add additional mess with the diffs.
 Check there is a new line at end of file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can see this warning while creating github pull request:
+You can see this warning while creating GitHub pull request:
 
 .. image:: /images/github-diff-no-newline-warning.png
   :align: center
@@ -108,7 +112,7 @@ Long summary makes output of ``git branch -vv`` looks bad:
 
 Same with the ``git log --pretty=oneline`` output.
 
-On github summary can be used as a topic of the pull request. So it will looks
+On GitHub summary can be used as a topic of the pull request. So it will looks
 ugly too:
 
 .. image:: /images/github-pull-request-long-summary.png
@@ -122,7 +126,7 @@ Margin 80 characters
 Keep each line of the code so line length is 80 characters maximum.
 
 * For ``gVim`` you can highlight margin using ``join`` command, see `vimrc example`__
-* This rule can be ignored for hyperlinks
+* This rule can be ignored for hyper-links
 
 .. seealso:: `Google style guide - Line Length <https://google.github.io/styleguide/cppguide.html#Line_Length>`_
 
@@ -131,7 +135,7 @@ Keep each line of the code so line length is 80 characters maximum.
 Keep each commit as trivial as possible
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Keep your commits as trivial as possible, do not mix nonrelated changes in one commit.
+Keep your commits as trivial as possible, do not mix non-related changes in one commit.
 For example:
 
 * Do not mix renaming of variable with changes in logic - make two commits:
@@ -163,7 +167,7 @@ Pick target branch
 
 Usually default branch is called ``master``. If there is one more branch
 called ``develop`` send a patch as a pull request against it.
-After successfull testing this branch will be merged to ``master``.
+After successful testing this branch will be merged to ``master``.
 
 Read CONTRIBUTING
 ~~~~~~~~~~~~~~~~~~
