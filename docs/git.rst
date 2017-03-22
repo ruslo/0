@@ -2,6 +2,9 @@
 
   diffs
 
+.. role:: strike
+  :class: strike
+
 Git
 ---
 
@@ -174,7 +177,7 @@ After successful testing this branch will be merged to ``master``.
 Read CONTRIBUTING
 ~~~~~~~~~~~~~~~~~~
 
-If there if ``CONTRIBUTING`` file in repository you will see
+If there is ``CONTRIBUTING`` file in repository you will see
 ``guidelines for contributing`` link. Please read it before submit :)
 
 .. image:: images/github-guidelines-for-contributing.png
@@ -192,8 +195,10 @@ Notify
 
 Please note that when you're updating pull request
 (by doing ``git push origin <branch-linked-to-pr>``)
-**no notification will be send** to anybody. So when you're done just add
-the "ping" note, like ``Updated!``.
+:strike:`no notification will be send to anybody` notification will be send
+but it's not clear is the pull request ready or it's just a part of
+work-in-progress update. So to avoid confusion when you're done leave the
+"ping" note, like ``Updated!``.
 
 .. seealso::
 
