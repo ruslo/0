@@ -1,6 +1,7 @@
 .. spelling::
 
   diffs
+  Heh
 
 .. role:: strike
   :class: strike
