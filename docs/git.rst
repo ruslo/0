@@ -18,6 +18,27 @@ Don't use tabs in code. How they are interpreted depends on the IDE/environment
 so everybody will see different picture. Mixed with the spaces makes code
 completely unreadable.
 
+Here is a list of coding style guides of few projects:
+
+* `Qt <http://wiki.qt.io/Qt_Coding_Style>`__ ``Spaces, not tabs!``
+* `Google <https://google.github.io/styleguide/cppguide.html#Spaces_vs._Tabs>`__ ``Do not use tabs in your code``
+* `LLVM <http://llvm.org/docs/CodingStandards.html#use-spaces-instead-of-tabs>`__ ``In all cases, prefer spaces to tabs in source files``
+* `Boost <http://www.boost.org/doc/libs/1_62_0/libs/spirit/doc/html/spirit/notes/style_guide.html>`__ ``use spaces instead of tabs``
+* `Mozilla <https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style>`__ ``No tabs``
+* `KDE <https://community.kde.org/Policies/Kdelibs_Coding_Style#Indentation>`__ ``No tabs``
+
+.. admonition:: Stackoverflow
+
+  According to
+  `Developer Survey Results 2017 <http://stackoverflow.com/insights/survey/2017/?utm_source=so-owned&utm_medium=hero&utm_campaign=dev-survey-/2017&utm_content=hero-ind-ques#work-tabs-or-spaces>`__:
+
+  .. code-block:: none
+
+    Well, 42.9% of developers use tabs. And 37.8% think that group is wrong.
+    (38,851 responses)
+
+  Heh :)
+
 Inserting spaces on pressing TAB
 ++++++++++++++++++++++++++++++++
 
