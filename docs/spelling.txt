@@ -42,6 +42,7 @@ globbing
 hacky
 hunterization
 iOS
+instantiation
 listfile
 listfiles
 multi
@@ -50,6 +51,7 @@ showstopper
 subproject
 toolchain
 toolchains
+whitespace
 whitespaces
 wiki
 workarounded
