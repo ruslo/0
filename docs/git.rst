@@ -102,6 +102,10 @@ You can see this warning while creating GitHub pull request:
 
 Please fix this warning by adding new line at end of file.
 
+.. admonition:: Stackoverflow
+
+  - `Git: No newline at end of file <https://stackoverflow.com/a/5813359>`__
+
 Set your copyrights
 ~~~~~~~~~~~~~~~~~~~
 
